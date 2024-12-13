@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 8000;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
